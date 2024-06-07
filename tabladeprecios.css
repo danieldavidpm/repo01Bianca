@@ -16,7 +16,8 @@
     padding: 10px;
     border-radius: 5px;
     box-shadow: 10px 10px 5px #888;
-}
+    width: 23%;
+    box-sizing: border-box;}
 .precio{
     font-size: 50px;
     color: rgb(37, 197, 144);
@@ -33,3 +34,16 @@
 .btn-precio:hover{
     background: rgb(255, 108, 92);
 }
+
+@media (max-width:1070px) {
+.columna{
+    width: 45%;
+    margin-bottom: 20px;
+}
+}
+@media (max-width:600px) {
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    }
