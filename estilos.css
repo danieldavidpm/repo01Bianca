@@ -41,6 +41,7 @@
      }
         .articulos{
             background: #4e4e6a;
+            flex:2 1 auto;
         }
             .article{
             background: #1f6cb0;
@@ -50,6 +51,7 @@
             }
         .aside{
             background: #f73f52;
+            flex: 1 1 auto;
         }
             .publicidad{
                 background: #ffea85;
